@@ -360,6 +360,15 @@
         </div>
       </footer>
     </div>
+    <script>
+      $('.glide__arrows').click(function(){
+        var label = $(this).children()[1];
+        var category = '滑动'
+        var action = '查看'
+        var label = '看电脑'
+        _czc.push(["_trackEvent",category,action,label,1]);
+      })
+    </script>
     <script src="./libs/isotope/isotope.pkgd.min.js"></script>
     <script src="./libs/anime/anime.min.js"></script>
     <script src="./libs/glide/glide.min.js"></script>
